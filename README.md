@@ -1,1 +1,1 @@
-# slack-to-playlist
+# SlackToPlaylist
