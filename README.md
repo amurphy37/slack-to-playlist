@@ -1,6 +1,6 @@
 # SlackToPlaylist
 
-A Slack application that automatically adds shared songs to a playlist corresponding to the channel in which the song was shared. Users install SlackToPlaylist to their Slack workspace and authenticate either Spotify or Apple Music. The application will detect when either a Spotify song or an Apple Music song is shared, and will add the song to a running playlist sharing the same name as the Slack channel to all users that have authenticate their preferred music service. 
+A Slack application that automatically adds shared songs to a playlist corresponding to the channel in which the song was shared. Users install SlackToPlaylist to their Slack workspace and authenticate either Spotify or Apple Music. The application will detect when either a Spotify song or an Apple Music song is shared to a Slack channel, and will add the song to a running playlist sharing the same name as the Slack channel to all users that have authenticate their preferred music service. 
 
 **Deployed Application:** (https://slacktoplaylist.herokuapp.com/)
 
