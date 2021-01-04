@@ -24,7 +24,7 @@ const UserSchema = new Schema({
         type: String
     },
     slackTeamName: {
-        tyupe: String
+        type: String
     },
     slackAuthToken: {
         type: String
