@@ -41,18 +41,10 @@ if (inProductionEnvironment) {
 
 else {
     // Setting our Mongo URI dynamically based on whether we're hosting locally or on Heroku. 
-    connectionString = 'mongodb://localhost:27017/slack_to_playlist'
-
-    options = {
-        useNewUrlParser: true,
-        useUnifiedTopology: true,
-        useCreateIndex: true,
-        useFindAndModify: false,
-        family: 4
-    }
+    connectionString = 'mongodb://127.0.0.1:27017/slack_to_playlist'
 
     // Connecting Mongoose and displaying in console that it's connected on success
-    mongoose.connect(connectionString, options)
+    mongoose.connect(connectionString)
 }
 
 const db = mongoose.connection
